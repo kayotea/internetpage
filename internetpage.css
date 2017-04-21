@@ -1,7 +1,7 @@
 /*Stylesheet for internetpage.html*/
 
 #wrapper{
-    background-color: lightblue;
+    background-color: white;
     width: 900px;
     height: 930px;
     margin: 0px auto;
@@ -10,7 +10,6 @@
 /*+header bar+*/
 /**/
 #header{
-    background-color: lightyellow;
     width: 900px;
     height: 100px;
     
@@ -24,8 +23,8 @@ img.globe{
     overflow: visible;
     position: absolute;
 }
-h1.title{
-    background: lightgray;
+h1{
+    color: #474747;
     height: 60px;
     width: 650px;
 
@@ -38,12 +37,12 @@ h1.title{
 }
 
 #content{
-    background-color: lightgreen;
+    background: linear-gradient(#ebe8e6,#ffffff);
     width: 900px;
-    height: 830px;
+    height: 300px;
 }
-h2.subtitle{
-    background: lightseagreen;
+h2{
+    background: linear-gradient(#0862a1, #4682af, #0862a1);
     height: 50px;
     width: 860px;
 
@@ -55,13 +54,12 @@ h2.subtitle{
 
     color: white;
     font-weight: 400;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 /*sidebar*/
 /**/
 #sidebar{
-    background-color: lightpink;
     width: 220px;
     height: 750px;
 
@@ -70,26 +68,31 @@ h2.subtitle{
     padding: 5px;
 }
 p.sidetitle{
-    background-color: white;
     font-size: 110%;
     font-weight: 500;
 
 }
 p.sideblurb{
-    background-color: white;
     font-size: 100%;
     font-weight: 500;
 }
 a.button{
-    background-color: lightcoral;
     border-radius: 10px;
     padding: 10px;
-    margin: 5px;
+    margin: 2px;
+    width: 180px;
     display: inline-block;
 
     font-size: 120%;
     color: white;
     text-decoration: none;
+    box-shadow: 2px 2px 1px grey;
+}
+a.blue{
+    background: linear-gradient(#5496c5, #0260a1);
+}
+a.orange{
+    background: linear-gradient(#f4ab46,#f66b0c);
 }
 div.ad{
     border-top: 1px solid #989898;
@@ -112,7 +115,6 @@ img.ninja{
     width: 100px;
 }
 a.button2{
-    background-color: lightcoral;
     border-radius: 10px;
     padding: 10px 30px;
     margin: 10px;
@@ -121,6 +123,10 @@ a.button2{
     font-size: 100%;
     color: white;
     text-decoration: none;
+    box-shadow: 2px 2px 1px #292626;
+}
+a.lightblue{
+    background: linear-gradient(#56c8da, #03b7d5);
 }
 span#arrow{
     font-size: 70%;
@@ -131,7 +137,6 @@ span#arrow{
 /*the article*/
 /**/
 #article{
-    background-color: silver;
     width: 655px;
     height: 760px;
 
@@ -139,16 +144,14 @@ span#arrow{
     vertical-align: top;
 }
 #upperline{
-    background-color: lightskyblue;
     border-bottom: 1px solid #989898;
     height: 80px;
     width: 655px;
 }
 a.dns{
-    background-color: lightyellow;
     text-decoration: none;
     vertical-align: top;
-
+    color: #0963a1;
     margin-right: 375px;
 }
 img.home{
@@ -157,13 +160,11 @@ img.home{
     vertical-align: top;
 }
 p.contact{
-    background-color: lightpink;
     display: inline-block;
     vertical-align: top;
     margin: 0px;
 }
 img.phone{
-    background-color: lightyellow;
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -176,17 +177,19 @@ span.phone{
 }
 span.tiny{
     font-size: 70%;
+    color: #515151;
 }
-
 h4{
-    background-color: lightyellow;
     margin: 10px;
-
     font-size: 130%;
     color: #0561a0;
 }
 p.basic{
     margin: 10px;
+}
+a.link{
+    color: #0099b1;
+    text-decoration: none;
 }
 img.diagram{
     width: 300px;
@@ -211,7 +214,6 @@ img.diagram{
     display: inline-block;
 }
 img.big3{
-    background: lightpink;
     width: 130px;
     height: 130px;
     display: inline-block;
@@ -219,14 +221,12 @@ img.big3{
     margin: 10px;
 }
 p.big3{
-    background: lightpink;
     display: inline-block;
     vertical-align: top;
     font-size: 95%;
     margin: 5px;
 }
 h3{
-    background-color: lightyellow;
     margin: 10px;
 
     font-size: 130%;
@@ -235,7 +235,6 @@ h3{
     vertical-align: top;
 }
 .inside{
-    background: lightcyan;
     width: 455px;
     height: 75px;
     display: inline-block;
