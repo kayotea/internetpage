@@ -1,0 +1,263 @@
+/*Stylesheet for internetpage.html*/
+
+#wrapper{
+    background-color: lightblue;
+    width: 900px;
+    height: 930px;
+    margin: 0px auto;
+}
+
+/*+header bar+*/
+/**/
+#header{
+    background-color: lightyellow;
+    width: 900px;
+    height: 100px;
+    
+    padding: 0px;
+}
+img.globe{
+    width: 120px;
+    height: 120px;
+
+    vertical-align: bottom;
+    overflow: visible;
+    position: absolute;
+}
+h1.title{
+    background: lightgray;
+    height: 60px;
+    width: 650px;
+
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 120px;
+
+    font-size: 300%;
+    font-weight: 400;
+}
+
+#content{
+    background-color: lightgreen;
+    width: 900px;
+    height: 830px;
+}
+h2.subtitle{
+    background: lightseagreen;
+    height: 50px;
+    width: 860px;
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+
+    padding: 10px 20px;
+
+    color: white;
+    font-weight: 400;
+    font-size: 250%;
+}
+
+/*sidebar*/
+/**/
+#sidebar{
+    background-color: lightpink;
+    width: 220px;
+    height: 750px;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+p.sidetitle{
+    background-color: white;
+    font-size: 110%;
+    font-weight: 500;
+
+}
+p.sideblurb{
+    background-color: white;
+    font-size: 100%;
+    font-weight: 500;
+}
+a.button{
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+}
+div.ad{
+    border-top: 1px solid #989898;
+    margin-top: 20px;
+
+}
+p.ad{
+    background-image: url("images/ad_background.png");
+    width: 195px;
+    height: 280px;
+    margin-top: 30px;
+    padding: 20px 10px;
+
+    color: white;
+}
+span.text{
+    font-size: 160%;
+}
+img.ninja{
+    width: 100px;
+}
+a.button2{
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px;
+    display: inline-block;
+
+    font-size: 100%;
+    color: white;
+    text-decoration: none;
+}
+span#arrow{
+    font-size: 70%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/*the article*/
+/**/
+#article{
+    background-color: silver;
+    width: 655px;
+    height: 760px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+#upperline{
+    background-color: lightskyblue;
+    border-bottom: 1px solid #989898;
+    height: 80px;
+    width: 655px;
+}
+a.dns{
+    background-color: lightyellow;
+    text-decoration: none;
+    vertical-align: top;
+
+    margin-right: 375px;
+}
+img.home{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+p.contact{
+    background-color: lightpink;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+}
+img.phone{
+    background-color: lightyellow;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+}
+span.phone{
+    color: #00c2e3;
+    font-size: 165%;
+    font-weight: 500;
+}
+span.tiny{
+    font-size: 70%;
+}
+
+h4{
+    background-color: lightyellow;
+    margin: 10px;
+
+    font-size: 130%;
+    color: #0561a0;
+}
+p.basic{
+    margin: 10px;
+}
+img.diagram{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.norm{
+    font-size: 95%;
+}
+
+/*the big 3*/
+/**/
+
+#big3{
+    border-left: 5px solid #007ee4;
+    border-top: 5px solid #007ee4;
+    border-right: 5px solid #007ee4;
+    background-color: white;
+    width: 620px;
+    height: 150px;
+    margin: 0px 0px 0px 15px;;
+    display: inline-block;
+}
+img.big3{
+    background: lightpink;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+
+    margin: 10px;
+}
+p.big3{
+    background: lightpink;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 95%;
+    margin: 5px;
+}
+h3{
+    background-color: lightyellow;
+    margin: 10px;
+
+    font-size: 130%;
+    color: #0561a0;
+    display: inline-block;
+    vertical-align: top;
+}
+.inside{
+    background: lightcyan;
+    width: 455px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*general*/
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.font{
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+span.red{
+    color: red;
+}
+span.blue{
+    color: #02609f;
+}
